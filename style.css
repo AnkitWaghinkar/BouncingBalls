@@ -5,3 +5,19 @@ body{
     align-items: center;
     background-color: #272727;
 }
+
+ul{
+    display: flex;
+    margin: 0;
+    padding: 0;
+    border-bottom: 10px solid white;
+}
+
+ul li{
+    list-style: none;
+    height: 30px;
+    width: 30px;
+    background-color: white;
+    margin: 0 10px;
+    border-radius: 50%;
+}
