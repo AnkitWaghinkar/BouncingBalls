@@ -20,4 +20,17 @@ ul li{
     background-color: white;
     margin: 0 10px;
     border-radius: 50%;
+
+    animation: jumping 1s linear infinite;
+}
+
+
+@keyframes jumping {
+
+    0%{transform: translateY(0px);}
+
+    50%{transform: translateY(-150px);}
+
+    100%{transform: translateY(0px);}
+    
 }
